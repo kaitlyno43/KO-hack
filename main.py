@@ -26,7 +26,7 @@ my_strings = [None, None]
 @when("click", "#my_button1_id")
 async def way_1_print(event): 
     global my_strings #gets my my_strings array
-    string1 = "FOOT"
+    string1 = "FRENCH"
     my_strings[0] = string1 #storing string 1 in array
     print('"',string1, '" loaded into my_strings array')
 
@@ -40,7 +40,7 @@ async def way_1_print(event):
 '''
 def way_2_print(event):
     global my_strings #gets my my_strings array
-    string2 = "BALL"
+    string2 = "FRIES"
     my_strings[1] = string2 #storing string 2 in array
     print('"',string2, '" loaded into my_strings array')
 
